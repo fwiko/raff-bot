@@ -1,0 +1,20 @@
+{
+  "bot": {
+    "token": "",
+    "prefix": "/",
+    "extensions": [
+      "discord-minecraft",
+      "utility",
+      "welcome",
+      "error_handler"
+    ],
+    "status": "discord.py test bot",
+    "embed_colour": 16568067
+  },
+  "welcome": {
+    "welcome_message_title": "Welcome to the Discord Server",
+    "welcome_message_description": "This is a description",
+    "welcome_message_image": "",
+    "welcome_dm": true
+  }
+}
