@@ -1,10 +1,15 @@
 {
   "bot": {
-    "token": "NzY1NjY3Mjg0MTU2Njc4MjI0.X4YJOQ.4sB5Gkr5o_JMkrUIA-tehDOmss4",
+    "token": "NzY1NjY3Mjg0MTU2Njc4MjI0.X4YJOQ.Ku3ncjPkFsa_4F3TabLBeEnft1w",
     "prefix": "!",
     "extensions": [
+      "default",
       "utility",
-      "welcome",
+      "error_handler"
+    ],
+    "blacklisted": [
+      "default",
+      "utility",
       "error_handler"
     ],
     "status": "discord.py test bot",
@@ -12,9 +17,6 @@
   },
   "welcome": {
     "enabled": false,
-    "message_title": "Welcome to the Discord Server",
-    "message_description": "This is a description",
-    "message_image_url": "",
-    "send_dm": true
+    "message": "Welcome to the Discord Server {}"
   }
 }
